@@ -139,10 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ex1.cpp" />
-    <ClCompile Include="ex2.cpp" />
-    <ClCompile Include="ex3.cpp" />
-    <ClCompile Include="ex4.cpp" />
+    <ClCompile Include="ex.cpp" />
+    <ClCompile Include="ex4_main.cpp" />
+    <ClCompile Include="ex4_SimpleFunc.cpp" />
+    <ClCompile Include="oppProject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ex4_SimpleFunc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
